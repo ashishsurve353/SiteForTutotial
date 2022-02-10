@@ -46,6 +46,7 @@ function authenticate() {
                    console.log(typeof ir);
                    var li=document.createElement('iframe');
                    li.allow="fullscreen";
+                   li.width="100%";
                    li.src="https://www.youtube.com/embed/"+ir;
                    console.log(li);
                    ul.append(li);
